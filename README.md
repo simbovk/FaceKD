@@ -1,2 +1,1 @@
-# FaceKD
-A face recognition system using knowledge distillation, where a teacher model transfers knowledge to a lightweight student model. This approach enhances efficiency while preserving accuracy. The repository includes training, evaluation, and preprocessing scripts for optimized face recognition.
+A face recognition system using knowledge distillation, where a teacher model transfers knowledge to a lightweight student model. This improves efficiency while maintaining accuracy. The repository includes training, evaluation, preprocessing scripts, and an API for image-based registration and verification.
