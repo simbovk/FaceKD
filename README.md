@@ -24,7 +24,7 @@ To improve model generalization, various **preprocessing** and **augmentation** 
 
 For validation, only **center cropping, resizing, and normalization** were applied to maintain evaluation consistency.
 
-- <img src="images/Triplets.png" alt="4D Latent Space" width="400">
+- <img src="images/Triplets.png" alt="Triplets" width="400">
 
 ## Methodology & Models
 
@@ -53,7 +53,7 @@ A **Teacher-Student training framework** was used to compress a large, high-perf
 - **Loss Function:** Triplet Loss (Margin = 1)
 - The model was trained to ensure that the **distance between positive pairs is minimized**, while **negative pairs are separated**.
 
-- <img src="images/Teacher trends.png" alt="4D Latent Space" width="400">
+- <img src="images/Teacher trends.png" alt="Teacher trends" width="400">
 
 #### **Student Model Training**
 - **Optimizer:** Adam
@@ -74,11 +74,11 @@ The **Student model** was evaluated using the validation set, with the following
 | **Recall** | 67.73% |
 | **F1-Score** | 75.33% |
 
-- <img src="images/Student trends.png" alt="4D Latent Space" width="400">
+- <img src="images/Student trends.png" alt="Student trends" width="400">
 
 Despite being **significantly smaller**, the **Student model's accuracy was very close to the Teacher model's performance**.
 
-- <img src="images/Final ROC curve.png" alt="4D Latent Space" width="400">
+- <img src="images/Final ROC curve.png" alt="Final ROC curve" width="400">
 
 ## Additional Training on VGGFace2
 The same methodology was applied to the **VGGFace2** dataset:
