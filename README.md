@@ -53,7 +53,7 @@ A **Teacher-Student training framework** was used to compress a large, high-perf
 - **Loss Function:** Triplet Loss (Margin = 1)
 - The model was trained to ensure that the **distance between positive pairs is minimized**, while **negative pairs are separated**.
 
-- <img src="images/Teacher trends.png" alt="Teacher trends" width="400">
+- <img src="images/Teacher trends .png" alt="Teacher trends" width="400">
 
 #### **Student Model Training**
 - **Optimizer:** Adam
