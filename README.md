@@ -71,8 +71,6 @@ The **Student model** was evaluated using the validation set, with the following
 | **Precision** | 84.84% |
 | **Recall** | 67.73% |
 | **F1-Score** | 75.33% |
-| **Macro F1** | 77.69% |
-| **Micro F1** | 77.82% |
 
 Despite being **significantly smaller**, the **Student model's accuracy was very close to the Teacher model's performance**.
 
